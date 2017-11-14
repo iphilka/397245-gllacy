@@ -57,7 +57,7 @@
           <span>С 10 до 20, ежедневно</span>
           <span>8 812 450-25-25</span>
         </div>
-      </nav>      
+      </nav>     
     </header>
     <main class="container">
       <ul class="breadcrumbs">
@@ -68,7 +68,31 @@
       <h1 class="tittle">Сливочное мороженое</h1>
       <section class="filter">
         <h2 class="visually-hidden">Сортировка товаров</h2>
-        <!-- Здесь будет форма -->
+        <form class="filter" action="https://echo.htmlacademy.ru" method="post">
+          <label for="sorting">Сортировка:</label>
+          <select class="filter-sort" id="sorting" name="sort">
+            <option>по популярности</option>
+            <option>сначала недорогие</option>
+            <option>сначала дорогие</option>
+            <option>по жирности</option>  
+          </select> 
+          <label for="price">Цена: 100 руб. - 500 руб.</label>
+          <input class="filter-pricerange" id="price" type="range" name="pricerange" min="0" max="800">
+          <label class="filter-fat-radio">Жирность:
+            <input type="radio" name="fat-radio" value="0">0%
+            <input type="radio" name="fat-radio" value="1-10" checked>до 10%
+            <input type="radio" name="fat-radio" value="11-30">до 30%
+            <input type="radio" name="fat-radio" value="31-100">выше 30%
+          </label>
+          <label class="filter-filler-radio">Наполнитель:
+              <input type="checkbox" name="filler-radio" value="chocolate" checked>шоколадные
+              <input type="checkbox" name="filler-radio" value="sugar" checked>сахарные присыпки
+              <input type="checkbox" name="filler-radio" value="fruit">фрукты
+              <input type="checkbox" name="filler-radio" value="syrup">сиропы
+              <input type="checkbox" name="filler-radio" value="jam">джемы    
+          </label>
+          <button class="filter-button" type="subscribe">Применить</button>        
+        </form>
       </section>
       <section class="products">
         <h2 class="visually-hidden">Мороженое</h2>
