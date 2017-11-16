@@ -29,19 +29,19 @@
         <a class="search" href="#"></a>
         <section class="search-dropdown">
           <h2 class="visually-hidden">Поиск по сайту</h2>
-          <form class="search-dropdown-form" action="https://echo.htmlacademy.ru" method="post">
+          <form class="form" action="https://echo.htmlacademy.ru" method="post">
             <label class="visually-hidden" for="search-request">Поиск по сайту</label>
-            <input class="search-field" id="search-request" type="search" name="request" placeholder="Что ищем?">
+            <input class="search" id="search-request" type="search" name="request" placeholder="Что ищем?">
           </form>
         </section>
         <a class="user-login" href="#">Вход</a>
         <section class="user-login-dropdown">
           <h2 class="visually-hidden">Вход в личный кабинет</h2>
-          <form class="user-login-dropdown-form" action="https://echo.htmlacademy.ru" method="post">
+          <form class="form" action="https://echo.htmlacademy.ru" method="post">
             <label class="visually-hidden" for="user-login">Электронная почта</label>
-            <input class="user-icon-user" id="user-login" type="text" name="login" placeholder="Электронная почта">
+            <input class="text" id="user-login" type="text" name="login" placeholder="Электронная почта">
             <label class="visually-hidden" for="user-password">Пароль</label>
-            <input class="user-icon-password" id="user-password" type="password" name="password" placeholder="Пароль">
+            <input class="password" id="user-password" type="password" name="password" placeholder="Пароль">
             <button class="button" type="submit">Войти</button>
           </form>
           <a href="#">Забыли пароль</a>
@@ -155,7 +155,11 @@
       <section class="subscribe">
         <h2 class="visually-hidden">Подписка на рассылку</h2>
         <p>Подпишитесь на нашу сладкую рассылку и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой ненужной ерунды. Честно =)</p>
-        <!-- Тут будет форма -->        
+        <form class="form" action="https://echo.htmlacademy.ru" method="post">
+          <label class="visually-hidden" for="email">Электронная почта</label>
+          <input class="email" type="email" placeholder="Электронная почта">
+          <button class="button" type="submit">Отправить</button>  
+        </form>        
       </section>
       <section class="map">
         <h2 class="visually-hidden">Карта проезда</h2>
@@ -201,11 +205,11 @@
       <h2>Мы обязательно вам ответим!</h2>
       <form class="feedback-form" action="https://echo.htmlacademy.ru" method="post">
         <label class="visually-hidden" for="user-name">Ваше имя</label>
-        <input class="feedback-username" id="user-name" type="text" name="name" placeholder="Как вас зовут?">
+        <input class="text" id="user-name" type="text" name="name" placeholder="Как вас зовут?">
         <label class="visually-hidden" for="user-email">Электронная почта для обратной связи</label>
-        <input class="feedback-email" id="user-email" type="email" name="email" placeholder="Ваша почта для ответа?">
+        <input class="email" id="user-email" type="email" name="email" placeholder="Ваша почта для ответа?">
         <label class="visually-hidden" for="user-message">Ваш коментарий</label>
-        <textarea class="feedback-message" id="user-message" name="message" placeholder="Напишите что-нибудь..." rows="5" cols="30"></textarea>
+        <textarea class="textarea" id="user-message" name="message" placeholder="Напишите что-нибудь..." rows="5" cols="30"></textarea>
         <button class="button" type="submit">Отправить</button>
       </form>     
     </section>
