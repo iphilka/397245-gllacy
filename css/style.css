@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  color:#323232;
+
+  background-color:#849d8f;
+}
+/* a{
+  
+} */
+
+.main-navigation{
+  line-height: 18px;
+  color:#ffffff;
+}
+
+.site-navigation,
+.site-navigation-sub{
+  list-style: none;
+}
+
+.site-navigation a,
+.site-navigation-sub a{
+  color: #ffffff;
+}
+
+.user-navigation a{
+  color: #323232;
+}
+
+.header-information span{
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.header-information .tel{
+  font-size: 22px; 
+}
