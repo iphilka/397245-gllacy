@@ -43,3 +43,9 @@ body {
 .header-information .tel{
   font-size: 22px; 
 }
+
+.slider-item-1{
+  background-image: url("img/ice-cream-1.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+}
