@@ -44,12 +44,16 @@ body {
   font-size: 22px; 
 }
 
-.slider-item-1{
-  
+.slider{
+  font-size: 60px;
+  line-height: 60.35px;
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+}
+.slider-item-1{  
   min-height: 600px;
   background-image: url("../img/ice-cream-1.png");
   background-position: top center;
-  background-repeat: no-repeat;
-
-  
+  background-repeat: no-repeat;  
 }
