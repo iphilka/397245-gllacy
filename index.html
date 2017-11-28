@@ -8,7 +8,8 @@
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <header class="main-header">
+    <!-- Добавить контейнер -->
+    <header class="main-header container">
       <nav class="main-navigation">
         <a>
           <img src="img/logo.svg" width="154" height="64" alt="Глейси">
@@ -29,7 +30,7 @@
         </ul>        
       </nav> 
       <div class="user-navigation">
-        <a class="search" href="#"></a>
+        <a class="search" href="#">Поиск</a>
         <section class="search-dropdown">
           <h2 class="visually-hidden">Поиск по сайту</h2>
           <form class="form" action="https://echo.htmlacademy.ru" method="post">
@@ -37,6 +38,7 @@
             <input class="search" id="search-request" type="search" name="request" placeholder="Что ищем?">
           </form>
         </section>
+        <!-- кнопка -->
         <section class="user-login-dropdown">
           <h2 class="visually-hidden">Вход в личный кабинет</h2>
           <form class="form" action="https://echo.htmlacademy.ru" method="post">
@@ -48,7 +50,8 @@
           </form>
           <a href="#">Забыли пароль</a>
           <a href="#">Новая регистрация</a>
-        </section> 
+        </section>
+
         <a class="cart" href="#">Пусто</a>        
       </div> 
       <div class="header-information">
@@ -177,7 +180,7 @@
         </div>
       </section>
     </main>
-    <footer class="main-footer">
+    <footer class="main-footer container">
       <div class="footer-social">
         <b>Давайте дружить!</b>
         <ul>

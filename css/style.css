@@ -20,9 +20,24 @@ a:focus{
   color:#ffbc9e;
 }
 
+.container{
+  min-width: 900px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .main-navigation{
+  display: flex;
+
   line-height: 18px;
   color:#ffffff;
+}
+.site-navigation{
+  display: flex;
+}
+
+.user-navigation{
+  display: flex;
 }
 
 .site-navigation,
@@ -57,6 +72,12 @@ a:focus{
   font-weight: 700;
   text-align: center;
 }
+
+.slider a{
+  font-size: 32px;
+  line-height: 44px;
+}
+
 .slider-item-1{  
   min-height: 600px;
   background-image: url("../img/ice-cream-1.png");
@@ -113,6 +134,7 @@ a:focus{
 }
 
 .product-list{
+  display:flex;  
   list-style: none;
 }
 
@@ -122,6 +144,7 @@ a:focus{
 
 .product-item{
   color:#ffffff;
+  width: 22%;
 }
 
 .product-item b{
@@ -219,4 +242,12 @@ a:focus{
 
 .modal{
   background-color: #f8f7f4;
+}
+
+.search-dropdown{
+  display: none;
+}
+
+.user-login-dropdown{
+  display: none;
 }
