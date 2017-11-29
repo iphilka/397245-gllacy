@@ -28,10 +28,18 @@ img{
 }
 
 .container{
-  min-width: 1200px;
+  min-width: 900px;
   max-width: 1200px;
   margin: 0 auto;  
-  padding: 0 2.2%;
+  padding: 0 2.3%;  
+}
+.header-information{
+  position: absolute;
+  right: 2.2%;
+}
+.main-header{
+  display: flex;
+  position: relative;
 }
 
 .main-navigation{
@@ -42,10 +50,12 @@ img{
 }
 .site-navigation{
   display: flex;
+  
 }
 
 .user-navigation{
   display: flex;
+  
 }
 
 .site-navigation,
@@ -118,13 +128,13 @@ img{
 
 .promo-containter{
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .promo{
   border-radius: 10px;
   min-height: 230px;
-  width: 46.6%;
+  width: 48.9%;
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
@@ -138,7 +148,7 @@ img{
 .promo-item-1{
   background-image: url("../img/promo-item-1.jpg");
   background-repeat: no-repeat;
-  margin-right: 2.3%;
+  margin-right: 2.2%;
 }
 
 .promo-item-2{
@@ -147,9 +157,11 @@ img{
   
 }
 
-.product-list{
+.product-list{ 
+  padding: 0;  
+  margin: 0;
   display:flex;  
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
 }
@@ -160,7 +172,7 @@ img{
 
 .product-item{
   color:#ffffff;
-  width: 22.2%;
+  width: 23.2%;  
 }
 
 .product-item b{
@@ -179,7 +191,8 @@ img{
 }
 
 .features{
-  background-image: url("../img/pattern-wafer.png")
+  background-image: url("../img/pattern-wafer.png");
+  border-radius: 10px;
 }
 
 .features-list{
@@ -188,7 +201,7 @@ img{
 
 .blog-container{
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-between;  
 }
 
 .blog{
@@ -199,8 +212,8 @@ img{
   background-color: #ffffff;
   background-image: url("../img/block-background.jpg");
   background-repeat: no-repeat;  
-  width: 46.6%; 
-  margin-left: 2.3%; 
+  width: 48.9%; 
+  margin-right: 2.2%; 
 }
 
 .blog h2{
@@ -214,19 +227,23 @@ img{
 
 .subscribe{
   border-radius: 10px;
-  width: 46.6%;
+  width: 48.8%;
   background-color: #f8f7f4;
   background-image: repeating-linear-gradient(135deg, #f8f7f4 0px, #f8f7f4 5px, #92cdff 5px,
   #92cdff 10px, #f8f7f4 10px, #f8f7f4 15px, #fe9e90 15px, #fe9e90 20px);
 }
 
 .map{
+  margin: 0 -2.2% ;
+  position: relative;
   min-height: 430px;
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
 }
 
 .map-address{
+  position: absolute;
+  right: 2.2%; 
   width: 300px;
   background-color: #fdfefe;
 }
@@ -258,6 +275,7 @@ img{
 }
 
 .main-footer{
+  display: flex;
   color:#ffffff;
 }
 
