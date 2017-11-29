@@ -122,7 +122,7 @@ img{
 }
 
 .promo{
-  border-radius: 50px;
+  border-radius: 10px;
   min-height: 230px;
   width: 46.6%;
   color: #ffffff;
@@ -150,6 +150,7 @@ img{
 .product-list{
   display:flex;  
   justify-content: space-around;
+  flex-wrap: wrap;
   list-style: none;
 }
 
@@ -191,6 +192,7 @@ img{
 }
 
 .blog{
+  border-radius: 10px;
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
@@ -211,6 +213,7 @@ img{
 }
 
 .subscribe{
+  border-radius: 10px;
   width: 46.6%;
   background-color: #f8f7f4;
   background-image: repeating-linear-gradient(135deg, #f8f7f4 0px, #f8f7f4 5px, #92cdff 5px,
