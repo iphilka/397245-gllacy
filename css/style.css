@@ -1,13 +1,15 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
-
   font-family: "Roboto", Arial, sans-serif;
   font-size: 16px;
   line-height: 22px;
   font-weight: 400;
   color:#323232;
-
   background-color:#849d8f;
 }
 
@@ -20,10 +22,16 @@ a:focus{
   color:#ffbc9e;
 }
 
+img{
+  max-width: 100%;
+  height: auto;
+}
+
 .container{
-  min-width: 900px;
+  min-width: 1200px;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto;  
+  padding: 0 2.2%;
 }
 
 .main-navigation{
@@ -108,8 +116,15 @@ a:focus{
   background-image: linear-gradient( 90deg, rgb(242,104,67) 0%, rgb(231,74,53) 100%);  
 }
 
+.promo-containter{
+  display: flex;
+  justify-content: space-around;
+}
+
 .promo{
+  border-radius: 50px;
   min-height: 230px;
+  width: 46.6%;
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
@@ -118,13 +133,12 @@ a:focus{
 .promo h2{
   font-size: 35px;
   line-height: 41px;
-
-
 }
 
 .promo-item-1{
   background-image: url("../img/promo-item-1.jpg");
   background-repeat: no-repeat;
+  margin-right: 2.3%;
 }
 
 .promo-item-2{
@@ -135,6 +149,7 @@ a:focus{
 
 .product-list{
   display:flex;  
+  justify-content: space-around;
   list-style: none;
 }
 
@@ -144,7 +159,7 @@ a:focus{
 
 .product-item{
   color:#ffffff;
-  width: 22%;
+  width: 22.2%;
 }
 
 .product-item b{
@@ -170,14 +185,20 @@ a:focus{
   list-style: none;
 }
 
+.blog-container{
+  display: flex;
+  justify-content: space-around;  
+}
+
 .blog{
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
+  background-color: #ffffff;
   background-image: url("../img/block-background.jpg");
-  background-repeat: no-repeat;
-  min-height: 220px;
-  min-width: 1200px;  
+  background-repeat: no-repeat;  
+  width: 46.6%; 
+  margin-left: 2.3%; 
 }
 
 .blog h2{
@@ -190,6 +211,7 @@ a:focus{
 }
 
 .subscribe{
+  width: 46.6%;
   background-color: #f8f7f4;
   background-image: repeating-linear-gradient(135deg, #f8f7f4 0px, #f8f7f4 5px, #92cdff 5px,
   #92cdff 10px, #f8f7f4 10px, #f8f7f4 15px, #fe9e90 15px, #fe9e90 20px);
