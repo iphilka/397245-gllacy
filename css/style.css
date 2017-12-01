@@ -204,11 +204,9 @@ img{
 
 .button{
   display: inline-block;
-  padding: 12px 44px;
-
+ 
   font-weight: 600;
-  font-size: 31px;
-  line-height: 41px;
+  
   text-align: center;
   color: #ffffff;
   vertical-align: top;
@@ -222,6 +220,17 @@ img{
   border: none;
 
   cursor: pointer;  
+}
+
+.slide-button{
+  padding: 12px 44px;
+
+  font-size: 31px;
+  line-height: 41px;
+}
+
+.button:focus{
+  color: #ffffff;
 }
 
 .button:hover {
@@ -241,29 +250,41 @@ img{
 }
 
 .promo{
-  border-radius: 10px;
-  min-height: 230px;
+  padding: 20px;
+  border-radius: 15px;
+  height: 229px;
   width: 48.9%;
   color: #ffffff;
   font-size: 18px;
   line-height: 22px;
+  font-weight: 700;
   
 }
 .promo h2{
   font-size: 35px;
-  line-height: 41px;
+  line-height: 41px;  
+  margin: 0;
 }
 
 .promo-item-1{
+  position: relative;
   background-image: url("../img/promo-item-1.jpg");
-  background-repeat: no-repeat;
+  background-repeat: no-repeat;  
   margin-right: 2.2%;
 }
 
 .promo-item-2{
+  position: relative;
   background-image: url("../img/promo-item-2.jpg");
-  background-repeat: no-repeat;
-  
+  background-repeat: no-repeat;  
+}
+
+.button-promo{  
+  padding: 12px 22px;
+
+  position: absolute;
+  bottom: 23px;
+  right: 20px;
 }
 
 .product-list{ 
