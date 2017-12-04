@@ -150,6 +150,7 @@ img{
 
   text-align: center;  
   color: #ffffff;   
+  margin-bottom: 40px;
 }
 
 .slider-list{
@@ -190,6 +191,10 @@ img{
   border: 2px solid #ffffff;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.slider-controls label:hover{
+  background-color: rgba(248, 247, 244, 0.4);
 }
 
 #product-1:checked ~ .site-wrapper #slide1,
@@ -266,6 +271,7 @@ img{
 .promo-containter{
   display: flex;
   justify-content: space-between;
+  margin-bottom: 40px;
 }
 
 .promo{
@@ -315,6 +321,7 @@ img{
   justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
+  margin-bottom: 40px;
 }
 
 .product-item img{
@@ -346,6 +353,7 @@ img{
   min-height: 305px;
   border-radius: 10px;
   padding: 25px 20px;
+  margin-bottom:40px;
 }
 
 .features-tittle{
@@ -396,6 +404,7 @@ img{
 .blog-container{
   display: flex;
   justify-content: space-between;  
+  margin-bottom: 40px;
 }
 
 .blog{
@@ -409,20 +418,24 @@ img{
   width: 48.9%; 
   min-height: 220px;  
   margin-right: 2.2%; 
+  padding: 25px 20px;
 }
 
 .blog h2{
   font-size: 16px;
   line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
 .blog a{
+  margin: 0;
   color: #323232;
 }
 
 .subscribe{
   margin: 0;
-  padding: 10px;
+  padding: 5px;
   border-radius: 10px;
   min-height: 220px;
   width: 48.8%;
@@ -433,12 +446,16 @@ img{
 }
 
 .subscribe-background{
-  display: inline-block;
-  width: 99%;
-  height: 99%;
+  display: inline-block;  
   border-radius: 10px;
   background-color: #f8f7f4;
+  height: 100%;
+  padding: 30px 20px;
    
+}
+
+.subscribe-background p{
+  margin: 0;
 }
 
 .map{
