@@ -82,6 +82,7 @@ img{
 .main-header{
   display: flex;
   position: relative;
+  margin-top: 10px;
   /* Не забудь это исправить! */
   height: 100px;
 }
@@ -92,6 +93,11 @@ img{
   line-height: 18px;
   color:#ffffff;
 }
+
+.main-navigation .logo{
+  margin-right: 10px;
+}
+
 .site-navigation{
   display: flex;
   
@@ -107,9 +113,26 @@ img{
   list-style: none;
 }
 
-.site-navigation a,
-.site-navigation-sub a{
+.site-navigation a{
   color: #ffffff;
+}
+
+.site-navigation-sub a{
+  color: #323232;
+  text-decoration: none;
+}
+
+.nav-sub-container{
+  display: none;
+  position: absolute;
+  width: 143px;
+  height: 171px;
+  background-color: #ffffff;
+  color: #323232;
+}
+
+.catalog:hover .nav-sub-container{
+  display: block;
 }
 
 .user-navigation a{
@@ -315,10 +338,11 @@ img{
 }
 
 .product-list{ 
+  position: relative;
   padding: 0;  
   margin: 0;
   display:flex;  
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-wrap: wrap;
   list-style: none;
   margin-bottom: 40px;
@@ -328,9 +352,17 @@ img{
   border-radius: 50%;
 }
 
+.product-item::before{
+  position: absolute;
+  width: 61px;
+  height: 61px;
+  content: url("../img/hit.svg")
+}
+
 .product-item{
   color:#ffffff;
-  width: 23.2%;  
+  width: 25%;   /*23.2%;   */
+  padding: 0 0.9%; 
 }
 
 .product-item b{
