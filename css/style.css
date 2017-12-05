@@ -117,6 +117,22 @@ img{
   color: #ffffff;
 }
 
+.site-navigation-sub{
+  padding-top: 10px;
+  padding-left: 21px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.site-navigation-sub li{
+  height: 28px;
+}
+
+.site-navigation-sub li:first-child{
+  border-bottom: 1px solid black;
+}
+
 .site-navigation-sub a{
   color: #323232;
   text-decoration: none;
@@ -129,6 +145,8 @@ img{
   height: 171px;
   background-color: #ffffff;
   color: #323232;
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);  
 }
 
 .catalog:hover .nav-sub-container{
