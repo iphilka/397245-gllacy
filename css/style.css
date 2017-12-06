@@ -142,6 +142,15 @@ img{
   justify-content: space-between;
   font-size: 14px;
   line-height: 16px;
+
+  margin-top: 10px;
+  width: 143px;
+  height: 171px;  
+  background-color: #ffffff;
+  color: #323232;
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);  
+
 }
 
 .site-navigation-sub li{
@@ -186,25 +195,23 @@ img{
   cursor: pointer;  
 }
 
-.catalog{
-  position: relative;
-}
-
 .nav-sub-container{
   display: none;
   position: absolute;
-  top: 40px;
-  width: 143px;
-  height: 171px;  
-  background-color: #ffffff;
-  color: #323232;
-  border-radius: 5px;
-  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);  
+  top: 35px;
+}
+
+.catalog{
+  position: relative;
 }
 
 .catalog:hover .nav-sub-container{
   display: block;
 }
+
+/* .nav-sub-container:hover {
+  display: block;
+} */
 
 .user-navigation{
   margin-left: auto;
@@ -235,14 +242,33 @@ img{
 }
 
 .search{
+  position: relative;
   width: 32px;
   height: 32px;;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.2);
 }
 
+.search svg{
+  position: absolute;
+  top: 7px;
+  left: 7px;
+}
+
 .search:hover{
   background-color: #ffffff;  
+}
+
+.search:hover path {
+  fill: #323232;
+}
+
+.search-container{
+  position: relative;
+}
+
+.search-container:hover  .search-dropdown{
+  display: block;
 }
 
 
@@ -665,6 +691,14 @@ img{
 
 .search-dropdown{
   display: none;
+  position: absolute;
+  top:20px;
+  left:20px;
+  width: 341px;
+  height: 84px;
+  border-radius: 5px;
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4);  
+
 }
 
 .user-login-dropdown{
