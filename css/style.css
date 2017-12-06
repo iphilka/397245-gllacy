@@ -18,7 +18,7 @@ body {
   background-color: #849d8f;
   background-image: url("../img/ice-cream-1.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: 50% 0%;
 
   transition: background-image 0.5s ease, background-color 0.5s ease;
 } 
@@ -76,15 +76,18 @@ img{
   padding: 0 2.3%;  
 }
 .header-information{
+  line-height: 24px;
   position: absolute;
+  top: 70px;
   right: 2.2%;
+  text-align: right;
 }
 .main-header{
   display: flex;
   position: relative;
   margin-top: 10px;
   /* Не забудь это исправить! */
-  height: 100px;
+  /* height: 100px; */
 }
 
 .main-navigation{
@@ -99,8 +102,22 @@ img{
 }
 
 .site-navigation{
-  display: flex;
-  
+  display: flex; 
+  padding: 0px; 
+}
+
+.site-navigation li{
+  padding: 7px 14px;
+
+}
+
+.site-navigation li:hover{
+  border-radius: 50px;  
+  background-color: #f7f6f3;
+}
+
+.site-navigation li:hover a{
+  color: #323232;
 }
 
 .user-navigation{
@@ -115,6 +132,7 @@ img{
 
 .site-navigation a{
   color: #ffffff;
+  font-weight: 700;
 }
 
 .site-navigation-sub{
@@ -136,7 +154,7 @@ img{
   
 }
 
-.nav-sub-container li:hover{
+.site-navigation-sub li:hover{
   background-color: #fbded8;
 }
 
@@ -153,19 +171,29 @@ img{
 
 .site-navigation-sub li:first-child{
   border-radius: 5px 5px 0 0;  
-  font-weight: 700; 
   padding-top: 12px;
   height: 41px;
+}
+
+.site-navigation-sub li:first-child a{
+  font-weight: 700;
 }
 
 .site-navigation-sub a{
   color: #323232;
   text-decoration: none;
+  font-weight: 400;
+  cursor: pointer;  
+}
+
+.catalog{
+  position: relative;
 }
 
 .nav-sub-container{
   display: none;
   position: absolute;
+  top: 40px;
   width: 143px;
   height: 171px;  
   background-color: #ffffff;
@@ -176,6 +204,10 @@ img{
 
 .catalog:hover .nav-sub-container{
   display: block;
+}
+
+.user-navigation{
+  margin-left: auto;
 }
 
 .user-navigation a{
@@ -191,10 +223,7 @@ img{
 
 .header-information .tel{
   font-size: 22px; 
-}
-/* Временное правило!!!!!!!!!!! */
-.slider .visually-hidden{
-  display: none;
+  line-height: 24px;
 }
 
 .visually-hidden-input{
@@ -626,5 +655,9 @@ img{
 }
 
 .user-login-dropdown{
+  display: none;
+}
+
+.cart-dropdown{
   display: none;
 }
