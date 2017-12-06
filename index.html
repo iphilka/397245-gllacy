@@ -50,20 +50,26 @@
             </form>
           </section>
         </div>
-        <!-- кнопка -->
-        <section class="user-login-dropdown">
-          <h2 class="visually-hidden">Вход в личный кабинет</h2>
-          <form class="form" action="https://echo.htmlacademy.ru" method="post">
-            <label class="visually-hidden" for="user-login">Электронная почта</label>
-            <input class="text" id="user-login" type="text" name="login" placeholder="Электронная почта">
-            <label class="visually-hidden" for="user-password">Пароль</label>
-            <input class="password" id="user-password" type="password" name="password" placeholder="Пароль">
-            <button class="button" type="submit">Войти</button>
-          </form>
-          <a href="#">Забыли пароль</a>
-          <a href="#">Новая регистрация</a>
-        </section>
-
+        <div class="login-conteiner">
+          <a class="login" href="#">
+            Вход
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="19" viewBox="0 0 21 19"><g fill="#000">
+              <path d="M6 14.875L12.917 9.5 6 4.125v2.917H-.042v4.917H6z"/><path d="M18 0H5C3.9 0 3 .9 3 2v2h2V2h13v15H5v-2H3v2c0 1.1.9 2 2 2h13c1.1 0 2-.9 2-2V2c0-1.1-.9-2-2-2z"/></g>
+            </svg>              
+          </a>
+          <section class="user-login-dropdown">
+            <h2 class="visually-hidden">Вход в личный кабинет</h2>
+            <form class="form" action="https://echo.htmlacademy.ru" method="post">
+              <label class="visually-hidden" for="user-login">Электронная почта</label>
+              <input class="text" id="user-login" type="text" name="login" placeholder="Электронная почта">
+              <label class="visually-hidden" for="user-password">Пароль</label>
+              <input class="password" id="user-password" type="password" name="password" placeholder="Пароль">
+              <button class="button" type="submit">Войти</button>
+            </form>
+            <a href="#">Забыли пароль</a>
+            <a href="#">Новая регистрация</a>
+          </section>
+        </div>
         <a class="cart" href="#">Пусто</a>        
       </div> 
       <div class="header-information">
