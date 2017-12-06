@@ -85,7 +85,9 @@ img{
 .main-header{
   display: flex;
   position: relative;
-  margin-top: 10px;
+  padding-top: 10px;
+  padding-left: 2.3%;
+  padding-right: 2.3%;
 }
 
 .main-navigation{
@@ -233,13 +235,13 @@ img{
   line-height: 24px;
 }
 
-.visually-hidden-input{
+/* .visually-hidden-input{
   position: absolute;
   width: 1px;
   height: 1px;
 
   clip: rect(0, 0, 0, 0);
-}
+} */
 
 .search{
   position: relative;
