@@ -729,6 +729,7 @@ img{
   min-height: 430px;
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
+  margin-bottom: 18px;
 }
 
 .map-address{
@@ -765,9 +766,7 @@ img{
   padding: 13px 25px;
 }
 
-.footer-social ul{
-  list-style: none;
-}
+
 
 .info ul{
   list-style: none;
@@ -781,8 +780,72 @@ img{
 
 .main-footer{
   display: flex;
+  /* justify-content: space-between; */
   color:#ffffff;
 }
+
+.footer-social ul{
+  list-style: none;
+}
+
+.social-list{
+  display: flex;
+  margin-right: 130px;
+}
+
+.social-button{
+  display: block;
+  width: 38px;
+  height: 38px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  margin-right: 11px;
+}
+
+.social-button path{
+  fill: #e6ebe9;
+}
+
+.social-button:hover path{
+  fill: #ffffff;
+}
+
+.social-button:active path{
+  fill: #e9e9e9;
+}
+
+.social-button:active{
+  border: 3px solid rgba(255, 255, 255, 0.7);
+}
+
+.footer-copyright{
+  margin-left: auto;
+}
+
+.info-list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+.info-list li{
+  margin-right: 32px;
+}
+
+.info-vendor{
+  position: relative;
+}
+
+.info-vendor::before{
+  content: url("../img/heart.svg");
+  position: absolute;
+  left: -20px;
+  top: 3px;
+}
+
+
+
 
 .user-navigation section{
   background-color: #f8f7f4;
@@ -790,6 +853,15 @@ img{
 
 .modal{
   background-color: #f8f7f4;
+  height: 442px;
+  width: 477px;
+  position: absolute;
+  /* display: block; */
+  border-radius: 10px;
+  top: 35%;
+  left: 50%;
+  margin-left: -238px;
+
 }
 
 .search-dropdown{
