@@ -945,8 +945,11 @@ fieldset{
   padding: 8px 16px; 
 }
 
+
 .sorting-container{
   width: 193px;
+  padding: 0;
+  background-color: none;
 }
 
 .price-container{
@@ -1070,6 +1073,15 @@ legend{
   position: absolute;
   top: -20px;
   left: 224px;
+}
+
+select{
+  padding: 0 16px;
+  color: #ffffff;
+  width: 193px;
+  height: 36px;
+  border-radius: 50px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 
