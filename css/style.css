@@ -83,7 +83,6 @@ img{
   text-align: right;
 }
 .main-header{
-  display: flex;
   position: relative;
   padding-top: 10px;
   padding-left: 2.3%;
@@ -92,7 +91,7 @@ img{
 
 .main-navigation{
   display: flex;
-
+  justify-content: space-between;
   line-height: 18px;
   color:#ffffff;
 }
@@ -951,6 +950,38 @@ fieldset{
   width: 36.2%;
 }
 
+.fat-container label{
+  position: relative;
+
+  cursor: pointer;
+  user-select: none;
+  margin-left: 25px;
+}
+
+.fat-container input{
+  display: none;
+}
+
+.fat-container label::before{
+  content: "";  
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  left: -25px;
+  background-image: url("../img/radio-off.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 20px 20px;
+}
+
+.fat-container input:checked + label::before{
+  background-image: url("../img/radio-on.svg");
+}
+
+
+
+
+
 .filler-container{
   width: 61.3%;
 }
@@ -985,6 +1016,10 @@ fieldset{
   background-image: url("../img/checkbox-on.svg");
 }
 
+.pagination-list{
+  padding: 0;
+  margin: 0;
+}
 
 
 
