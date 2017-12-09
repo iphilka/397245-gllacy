@@ -83,6 +83,7 @@ img{
   text-align: right;
 }
 .main-header{
+  display: flex;
   position: relative;
   padding-top: 10px;
   padding-left: 2.3%;
@@ -915,16 +916,22 @@ main .tittle{
   font-size: 35px;
   line-height: 41px;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .filter{
+  display: flex;
+  flex-wrap: wrap;
   color: #ffffff;
+  margin-bottom: 40px;
 }
 
 fieldset{
+  position: relative;
   border: 0;
   padding: 0;
   margin: 0;
+  height: 36px;
   color: #ffffff;
 }
 
@@ -939,15 +946,15 @@ fieldset{
 }
 
 .sorting-container{
-  width: 16.8%;
+  width: 193px;
 }
 
 .price-container{
-  width: 19%;
+  width: 218px;
 }
 
 .fat-container{
-  width: 36.2%;
+  width: 415px;
 }
 
 .fat-container label{
@@ -978,12 +985,21 @@ fieldset{
   background-image: url("../img/radio-on.svg");
 }
 
+.filter-button{
+  border-radius: 50px;
+  height: 36px;
+  padding: 9px 30px;
+  border: 2px solid #ffffff;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+}
+
 
 
 
 
 .filler-container{
-  width: 61.3%;
+  width: 702px;
 }
 
 .filler-container label{
@@ -1019,6 +1035,41 @@ fieldset{
 .pagination-list{
   padding: 0;
   margin: 0;
+}
+
+.filter-form{
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;  
+  height: 110px;
+
+  position: relative;
+}
+
+legend{
+  font-size: 14px;
+  line-height: 16px;
+  position: absolute;
+  top: -20px;
+  left: 16px;
+}
+
+.custom-select{
+  font-size: 14px;
+  line-height: 16px;
+
+  position: absolute;
+  top: -20px;
+  left: 16px;
+}
+
+.price-label{
+  font-size: 14px;
+  line-height: 16px;
+
+  position: absolute;
+  top: -20px;
+  left: 224px;
 }
 
 
