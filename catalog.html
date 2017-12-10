@@ -128,7 +128,11 @@
           </div>
           <label class= "price-label" for="price">Цена: 100 руб. - 500 руб.</label>
           <div class="filter-container price-container">
-            <input class="range" id="price" type="range" name="pricerange" min="0" max="800">
+            <input class="range visually-hidden" id="price" type="range" name="pricerange" min="0" max="800">
+            <div class="range-line">
+              <button class="range-control" style="left: 40px;"></button>
+              <button class="range-control" style="right: 40px;"></button>
+            </div>
           </div>
           <fieldset>
             <legend>Жирность:</legend>
