@@ -1425,10 +1425,7 @@ select{
   background-color: #ffffff;  
 }
 
-/* .cart:hover path,
-.cart:hover g{
-  fill: #323232;
-} */
+
 .cart-container:hover .cart{
   background-color: #f8f7f4;
   color: #323232;
@@ -1476,4 +1473,13 @@ select{
   right: 26px;
   bottom: 40px;
   padding: 13px 25px;
+}
+
+.cart-container:hover  .cart-null{
+  color: #ffffff;
+  background-color: rgba(255, 255, 255, 0.2)
+}
+
+.cart-container:hover .cart-null path {
+  fill: #ffffff;
 }
