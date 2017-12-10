@@ -1037,7 +1037,7 @@ fieldset{
 
 .pagination-list{
   position: relative;
-  width: 145px;
+  width: 220px;
   display: flex;
   flex-wrap: wrap;
 
@@ -1047,28 +1047,24 @@ fieldset{
   list-style: none;
 }
 
-.pagination-list::before{
-  content: "";
-  display: block;
+.pagination-list .preview{
   width: 25px;
   height: 25px;
   position: absolute;
-  left: -20px;
-  top: 5px;
+  bottom: 7px; 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
   background-position: top center;
+  transform: rotate(180deg);
 
 }
 
-.pagination-item::after{
-  content: "";
-  display: block;
+.pagination-list .next{
   width: 25px;
   height: 25px;
   position: absolute;
-  right: -20px;
-  top: 5px;
+  padding: 0;
+  top: 5px; 
   background-image: url("../img/icon-right-small.svg");
   background-repeat: no-repeat;
   background-position: top center;
@@ -1085,6 +1081,14 @@ fieldset{
 }
 
 .pagination-item:first-child{
+  margin-right: 10px;
+}
+
+.pagination-item:last-child{
+  padding: 0;
+}
+
+.pagination-item-current{
   background-color: #ffffff;
 }
 
@@ -1092,7 +1096,7 @@ fieldset{
   text-decoration: none;  
 }
 
-.pagination-item:first-child a{
+.pagination-item-current a{
   color: #323232;  
   
 }
