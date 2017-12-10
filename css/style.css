@@ -1133,6 +1133,14 @@ fieldset{
   color: #323232;
 }
 
+.filter-button:active {
+  background-color: #eaeaea;
+  box-shadow: inset 0px 3px 1px 0px rgba(105, 105, 105, 1);
+  border: 0
+}
+
+
+
 
 
 
@@ -1231,6 +1239,14 @@ fieldset{
 
 .pagination-item:last-child{
   padding: 0;
+}
+
+.pagination-item:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.pagination-item a:hover{
+  color: #ffffff;
 }
 
 .pagination-item-current{
@@ -1500,6 +1516,18 @@ input{
 
 input::placeholder{
   font-weight: 400;
+}
+
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover,
+input[type="search"]:hover,
+textarea:hover{
+  border: 2px solid #c7c6c5;
+}
+
+select:hover{
+  color: #323232;
 }
 
 input:focus::placeholder{
