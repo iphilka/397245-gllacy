@@ -391,6 +391,68 @@ img{
   line-height: 16px;
 }
 
+.table-tittle{
+  display: inline-block;
+  vertical-align: center;
+  width: 230px;
+  margin-right: 20px;
+}
+
+.price-per-kg{
+  color: #999999;
+}
+
+.table-price{
+  display: inline-block;
+  width: 100px;
+  margin: 0;
+  margin-right: 20px;
+}
+
+.cart-table img{
+  border-radius: 50%;
+  margin-right: 10px; 
+}
+
+.cart-table{
+  width: 511px;
+}
+
+.sum{
+  width: 120px; 
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  display: block;
+  position: absolute;
+  bottom: 80px;
+  right: 5px;  
+}
+
+.sum::before{
+  content: " ";
+  width: 511px;
+  display: block;
+  border-top: 1px solid #999999;
+  margin-left: -400px;
+  margin-bottom: 10px;
+
+}
+
+.button-close{
+  border: 0;
+  background-color: rgba(0, 0, 0, 0);
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.cart-dropdown .button{
+  display: block;
+  position: absolute;
+  bottom: 20px;
+  right: 15px;
+  padding: 12px 15px;
+}
 
 
 
