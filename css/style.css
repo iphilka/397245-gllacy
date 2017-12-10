@@ -267,6 +267,11 @@ img{
   height: 32px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.2);
+  
+}
+
+.search-input{
+  background-color: #ffffff;
 }
 
 .search svg{
@@ -1114,6 +1119,7 @@ fieldset{
 }
 
 .filter-button{
+  font-weight: 700;
   border-radius: 50px;
   height: 36px;
   padding: 9px 30px;
@@ -1122,6 +1128,10 @@ fieldset{
   color: #ffffff;
 }
 
+.filter-button:hover{
+  background-color: #fbfcfb;
+  color: #323232;
+}
 
 
 
@@ -1482,4 +1492,16 @@ select{
 
 .cart-container:hover .cart-null path {
   fill: #ffffff;
+}
+
+input{
+  font-weight: 700;
+}
+
+input::placeholder{
+  font-weight: 400;
+}
+
+input:focus::placeholder{
+  color: #ffffff;
 }
