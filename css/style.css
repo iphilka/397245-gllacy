@@ -143,7 +143,8 @@ img{
 
 .user-navigation{
   display: flex;
-  margin-left: auto;  
+  margin-left: auto; 
+  margin-top: 15px; 
 }
 
 .user-navigation div{
@@ -421,7 +422,7 @@ img{
 
 .slider-controls{
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
   z-index: 20;
 
@@ -520,7 +521,7 @@ img{
 .promo-containter{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
 }
 
 .promo{
@@ -568,7 +569,7 @@ img{
   padding: 0;  
   margin: 0;
   display:flex;  
-  /* justify-content: space-between; */
+  justify-content: space-between;
   flex-wrap: wrap;
   list-style: none;
   /* margin-bottom: 40px; */
@@ -576,6 +577,7 @@ img{
 
 .product-item img{
   border-radius: 50%;
+  width: 100%;
 }
 
 .hit .product-item::before{
@@ -589,7 +591,9 @@ img{
   position: relative;
   color: #ffffff;
   width: 25%;   /*23.2%;   */
-  padding: 0 0.9%; 
+  padding-left: 0.9%;
+  padding-right: 0.9%;
+  padding-top: 0.9%;
   padding-bottom: 83px;
 }
 
@@ -607,6 +611,7 @@ img{
 .product-item .price-tittle{
   display: inline-block;
   text-align: center;
+  margin-top: 15px;
 }
 
 .product-item .metric{
@@ -641,7 +646,7 @@ img{
 
 .features{
   background-image: url("../img/pattern-wafer.png");
-  min-height: 305px;
+  min-height: 300px;
   border-radius: 10px;
   padding: 25px 20px;
   margin-top: -40px;
@@ -651,6 +656,8 @@ img{
 .features-tittle{
   margin: 0;
   padding: 0;
+  font: 24px;
+  line-height: 30px;
 }
 
 .features-list{
@@ -667,30 +674,39 @@ img{
   width: 48.9%;
   flex-shrink: 0;
   padding-left:55px;
+  margin-bottom: 5px;
+}
+
+.features-item p{
+  margin-bottom: 0;
 }
 
 .ice-cream::before{
   position: absolute;
   content: url("../img/ice-cream.svg"); 
   margin-left: -55px;
+  margin-top: 5px;
 }
 
 .eco::before{
   position: absolute;
   content: url("../img/eco.svg"); 
   margin-left: -55px;
+  margin-top: 5px;  
 }
 
 .cow::before{
   position: absolute;  
   content: url("../img/cow.svg");
   margin-left: -55px;  
+  margin-top: 5px;  
 }
 
 .thermometer::before{
   position: absolute;  
   content: url("../img/thermometer.svg");
   margin-left: -55px;  
+  margin-top: 5px;  
 }
 
 .blog-container{
@@ -706,7 +722,8 @@ img{
   line-height: 30px;
   background-color: #ffffff;
   background-image: url("../img/block-background.jpg");
-  background-repeat: no-repeat;  
+  background-repeat: no-repeat;
+  background-position: 115% 25%;  
   width: 48.9%; 
   min-height: 220px;  
   margin-right: 2.2%; 
@@ -717,12 +734,14 @@ img{
   font-size: 16px;
   line-height: 22px;
   margin-top: 0;
-  margin-bottom: 10px;
+  margin-bottom: 0;
 }
 
 .blog a{
+  display: block;
   margin: 0;
   color: #323232;
+  width: 60%;
 }
 
 .subscribe{
@@ -757,6 +776,7 @@ img{
   min-height: 430px;
   background-image: url("../img/map.png");
   background-repeat: no-repeat;
+  background-position: 50% 50%;
   margin-bottom: 18px;
 }
 
@@ -1324,7 +1344,7 @@ select{
 
 
 .subscribe input{
-  width: 320px;
+  width: 62.1%;
   height: 44px;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
