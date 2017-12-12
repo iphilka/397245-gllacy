@@ -76,7 +76,16 @@ img{
   top: 70px;
   right: 2.2%;
   text-align: right;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 700;
+  color: #ffffff;  
 }
+
+.header-information p{
+  margin: 0;
+}
+
 .main-header{
   display: flex;
   position: relative;
@@ -232,10 +241,6 @@ img{
 }
 
 .header-information span{
-  font-size: 14px;
-  line-height: 16px;
-  font-weight: 700;
-  color: #ffffff;
 }
 
 .header-information .tel{
