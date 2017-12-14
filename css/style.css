@@ -828,15 +828,16 @@ img{
 }
 
 .map-address p{
+  width: 172px;
   margin: 0;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;  
 }
 
-.map-address b{
+.map-address .bold{
   display: inline-block;
-  width: 302px;
+  width: 220px;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700; 
@@ -1449,4 +1450,11 @@ select:hover{
 
 input:focus::placeholder{
   color: #ffffff;
+}
+
+input,
+select,
+textarea,
+button{
+  font-family: "Roboto", Arial, sans-serif;
 }
