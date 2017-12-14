@@ -1266,7 +1266,7 @@ select{
 }
 
 .modal{
-  display: none;
+  display: block;
   background-color: #f8f7f4;
   height: 442px;
   width: 477px;
@@ -1448,7 +1448,8 @@ select:hover{
   color: #323232;
 }
 
-input:focus::placeholder{
+input:focus::placeholder,
+textarea:focus::placeholder{
   color: #ffffff;
 }
 
@@ -1457,4 +1458,21 @@ select,
 textarea,
 button{
   font-family: "Roboto", Arial, sans-serif;
+}
+
+.modal-feedback .modal-close{
+  padding: 0;
+  position: absolute;
+  top: 15px;
+  right: 16px;
+  width: 22px;
+  height: 22px;
+  font-size: 0;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.modal-close::before{
+  content: url("../img/x-big.svg");
 }
