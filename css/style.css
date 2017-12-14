@@ -107,6 +107,7 @@ img{
 }
 
 .site-navigation{
+  margin-top: 13px;
   display: flex; 
   padding: 0px; 
 }
@@ -119,6 +120,7 @@ img{
 
 .current a{
   text-decoration: none;
+  margin-top: 0;
 }
 
 .current .site-navigation{
@@ -127,6 +129,7 @@ img{
 
 .site-navigation li{
   padding: 7px 14px;
+  height: 32px;
 }
 
 .site-navigation li:hover{
@@ -447,7 +450,7 @@ img{
 
 .slider{
   position: relative;  
-  padding-top: 321px;
+  padding-top: 315px;
   text-align: center;  
   color: #ffffff;   
   margin-bottom: 40px;
