@@ -384,31 +384,44 @@ img{
   line-height: 16px;
 }
 
+.cart-table td{
+  padding-right: 5px;
+  padding-bottom: 15px;
+  vertical-align: middle;
+}
+
+.cart-table tr{
+  height: 33px;
+  margin-bottom: 15px;
+}
+
 .table-tittle{
   display: inline-block;
   vertical-align: center;
   width: 230px;
-  margin-right: 20px;
 }
 
 .price-per-kg{
   color: #999999;
 }
 
-.table-price{
-  display: inline-block;
-  width: 100px;
+.table-price{ 
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
   margin: 0;
-  margin-right: 20px;
+  /* margin-right: 20px; */
 }
 
 .cart-table img{
   border-radius: 50%;
-  margin-right: 10px; 
+  /* margin-right: 10px;  */
 }
 
 .cart-table{
+  display: inline-block;
   width: 511px;
+  vertical-align: middle;
 }
 
 .sum{
@@ -433,9 +446,17 @@ img{
 
 .button-close{
   border: 0;
+  padding: 0;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
-  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  /* margin-right: 15px; */
+}
+
+.table-img{
+  width: 33px;
+  height: 33px;
 }
 
 .cart-dropdown .button{
@@ -1444,13 +1465,13 @@ select{
 .cart-dropdown{
   display: none;
   position: absolute;
-  top: 40px;
-  right: 0px;
+  top: 37px;
+  right: -1px;
   width: 541px;
   height: 243px;
   border-radius: 5px;
   box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.4); 
-  padding: 20px 15px; 
+  padding: 16px 13px; 
 }
 
 .cart:hover{
@@ -1565,4 +1586,101 @@ button{
   background-image: url("../img/backlight.png");
   background-repeat: repeat-x;
   background-position: top center;
+}
+
+
+
+
+
+
+
+
+.cart-item{
+  width: 100%;
+  font-size: 13px;
+  line-height: 16px;
+  color: #323232;
+  border-bottom: 1px solid #cacac7;
+}
+
+.cart-item td{
+  padding-right: 0px;
+  padding-bottom: 14px;
+  vertical-align: middle;
+}
+
+.cart-item a{
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  color: #323232;
+  text-decoration: none;
+}
+
+.class-item-size td:first-child{
+  width: 20px;
+}
+
+.class-item-size td:nth-child(2){
+  width: 35px;
+}
+
+.class-item-size td:nth-child(3){
+  width: 235px;  
+}
+
+.cart-item span{
+  color: #999999;
+}
+
+.cart-item img{
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+
+.cart-item-tittle{
+  padding-left: 10px;
+  padding-right: 0;
+}
+
+.tittle-table-second{
+  padding-top: 10px;  
+}
+
+.cart-close-button{
+  font-size: 18px;
+  line-height: 24px;
+  width: 13px;
+  height: 13px;
+  font-size: 0;
+  background: url("../img/x-min.svg");
+  background-repeat: no-repeat;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.item-no-wrap-1{
+  width: 125px;
+  padding-left: 20px;
+}
+
+.item-no-wrap-2{
+  padding-left: 15px;
+}
+
+.cart-total-price{
+  width: 100%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: right;
+}
+
+.cart-total-price{
+  padding-right: 10px;
 }
