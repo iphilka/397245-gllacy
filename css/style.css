@@ -1389,7 +1389,7 @@ select{
   width: 62.4%;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
-  padding: 15px;  
+  padding: 10px 15px;  
   background-color: #ffffff;
   margin-bottom: 20px;
 }
@@ -1399,7 +1399,7 @@ select{
   height: 155px;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
-  padding: 15px;  
+  padding: 10px 15px;  
   background-color: #ffffff;
   margin-bottom: 20px;
 }
@@ -1427,7 +1427,7 @@ select{
   height: 44px;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
-  padding: 15px;  
+  padding: 10px 15px;  
   background-color: #ffffff;  
 }
 
@@ -1436,7 +1436,7 @@ select{
   height: 44px;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
-  padding: 15px;  
+  padding: 10px 15px;  
   background-color: #ffffff;
   margin-bottom: 20px;  
 }
@@ -1510,10 +1510,12 @@ select{
   height: 44px;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
-  padding: 15px;  
+  padding: 10px 15px;
   background-color: #ffffff;
-  margin-right: 12px;   
+  margin-right: 12px;  
+  vertical-align: middle; 
 }
+
 
 .subscribe .button{
   flex-shrink: 0;
