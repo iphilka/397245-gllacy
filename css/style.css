@@ -828,6 +828,7 @@ img{
   margin: 0;
   color: #323232;
   width: 60%;
+  text-decoration: underline;
 }
 
 .subscribe{
