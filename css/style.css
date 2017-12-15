@@ -85,6 +85,7 @@ img{
 
 .header-information p{
   margin: 0;
+  margin-top: 3px;
 }
 
 .main-header{
@@ -354,7 +355,7 @@ img{
 
 .login-refer a{
   color: #323232;
-  
+  text-decoration: underline;
 }
 
 .cart{
@@ -466,7 +467,7 @@ img{
 .slider-tittle{
   width: 700px;
   margin: 0 auto;
-  margin-bottom: 27px;  
+  margin-bottom: 30px;  
   font-size: 60px;
   line-height: 60px;
   font-weight: 700;
@@ -577,6 +578,10 @@ img{
   font-weight: 700;  
 }
 
+.promo p{
+  margin-top: 15px;
+}
+
 .promo h2{
   font-size: 35px;
   line-height: 41px;  
@@ -606,7 +611,8 @@ img{
 .product-list{ 
   position: relative;
   padding: 0;  
-  margin: 0;
+  margin: 0 -13px;
+  
   display:flex;  
   justify-content: space-between;
   flex-wrap: wrap;
@@ -653,6 +659,7 @@ img{
   display: inline-block;
   text-align: center;
   margin-top: 15px;  
+  width: 100%;
 }
 
 .price-tittle .item-refer{
@@ -826,7 +833,7 @@ img{
 
 .map-address{  
   margin-top: 62px;
-  padding: 31px 25px;
+  padding: 28px 27px;
   position: absolute;
   right: 2.2%; 
   width: 302px;
@@ -845,11 +852,20 @@ img{
 
 .map-address .bold{
   display: inline-block;
-  width: 220px;
+  width: 222px;
   font-size: 18px;
   line-height: 24px;
   font-weight: 700; 
-  margin: 5px 0;
+  margin-top: 3px;
+  margin-bottom: 17px;
+}
+
+.map-address .order{
+  margin-top: -3px;
+}
+
+.map-address .time{
+  margin-top: -18px;
 }
 
 .map-address .button{
