@@ -712,7 +712,8 @@ img{
   min-height: 300px;
   border-radius: 10px;
   padding: 25px 20px;
-  margin-top: -40px;
+  padding-bottom: 19px;
+  margin-top: -45px;
   margin-bottom:40px;
 }
 
@@ -721,6 +722,7 @@ img{
   padding: 0;
   font: 24px;
   line-height: 30px;
+  margin-bottom: 5px;
 }
 
 .features-list{
@@ -827,6 +829,15 @@ img{
   padding: 30px 20px;   
 }
 
+
+.subscribe-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 33px;  
+}
+
 .subscribe-background p{
   margin: 0;
 }
@@ -844,6 +855,7 @@ img{
 .map-address{  
   margin-top: 62px;
   padding: 28px 27px;
+  padding-bottom: 25px;
   position: absolute;
   right: 2.2%; 
   width: 302px;
@@ -881,7 +893,7 @@ img{
 .map-address .button{
   font-size: 18px;
   line-height: 24px;
-  margin-top: 25px;
+  margin-top: 30px;
   width: 100%;
   padding: 10px 25px;
 }
@@ -1473,20 +1485,17 @@ select{
 }
 
 .subscribe input{
-  width: 62.1%;
+  flex-grow: 2;
   height: 44px;
   border-radius: 5px;
   border: 1px solid #d3d3d2;
   padding: 15px;  
-  background-color: #ffffff;   
-  position: absolute;
-  bottom: 40px;  
+  background-color: #ffffff;
+  margin-right: 12px;   
 }
 
 .subscribe .button{
-  position: absolute;
-  right: 26px;
-  bottom: 40px;
+  flex-shrink: 0;
   padding: 13px 25px;
 }
 
