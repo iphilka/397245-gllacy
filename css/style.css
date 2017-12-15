@@ -1327,6 +1327,7 @@ legend{
 }
 
 select{
+  border: 0;
   padding: 0 10px;
   color: #ffffff;
   width: 193px;
