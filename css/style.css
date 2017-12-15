@@ -1294,7 +1294,7 @@ legend{
 }
 
 select{
-  padding: 0 16px;
+  padding: 0 10px;
   color: #ffffff;
   width: 193px;
   height: 36px;
@@ -1304,9 +1304,11 @@ select{
 
 .range-line{
   position: relative;
-  width: 176px;
+  width: 175px;
   height: 4px;
-  margin: 10px 0;
+  margin: 6px 0;
+  margin-left: 5px;
+  
   background: rgba(255, 255, 255, 0.5);
 }
 
@@ -1320,6 +1322,14 @@ select{
   outline: 0;
   border-radius: 50%;
   cursor: pointer;
+}
+
+.range-control-first{
+  left: 13px;
+}
+
+.range-control-second{
+  right: 44px;
 }
 
 .modal{
